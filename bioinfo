@@ -1,0 +1,10 @@
+0	string	@HD\tVN:1.0\ SO:coordinate	SAM file v1.0 sorted on coordinates
+0	string	@HD\tVN:1.0\ SO:coordinate	SAM file v1.0 sorted on coordinates
+0	string	BAM\1	BAM file v1.0
+0	string	CRAM\2\1	CRAM 2.1 file
+0	string	BAI\1	BAM index file v1.0
+0	regex	[\r\n]^>.*\n[ATGCatgc]*\n	Fasta DNA sequence
+0	string	\#\#fileformat=VCFv4\.1 VCF format 4.1
+0	string	BCF\4	BCF file v1.0
+0	string	BCF\2\1	BCF file v2.0
+0	string	TBI\1	Tabix index file v1.0
