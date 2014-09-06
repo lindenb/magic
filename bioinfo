@@ -9,3 +9,4 @@
 0	string	BCF\2\1	BCF file v2.0
 0	string	TBI\1	Tabix index file v1.0
 0	string	gi|x	okkk
+0	regex	[^t]+\t[0-9]+\t[0-9]+\n	BED Format 3 columns
