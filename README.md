@@ -11,6 +11,13 @@ Motivation: https://www.biostars.org/p/111642 "Tool that detects data types"
 $ file -C -m bioinfo
 ```
 
+## Tested with **`file`**:
+
+``` bash
+$ file --version
+file-5.09
+```
+
 ## Examples
 
 ```bash
