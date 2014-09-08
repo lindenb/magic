@@ -1,1 +1,5 @@
-0	regex	[\r\n]*>.*[\n\r][A-Za-z]*\n	Fasta sequence
+#
+# Fasta Format
+#
+0	regex   \>.*[\n\r].*\n	Fasta Sequence
+#!:mime text/fasta

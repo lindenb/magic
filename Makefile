@@ -1,5 +1,6 @@
 .PHONY:all compile tests
-PATTERNS=$(addprefix patterns/,bam  bed  fastq fasta  tabix  vcf bigwig bigbed)
+FORMATS=bam  bed  fastq fasta  tabix  vcf bigwig bigbed blast
+PATTERNS=$(addprefix patterns/,${FORMATS})
 all: tests
 
 tests: bioinfo.mgc

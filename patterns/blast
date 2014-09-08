@@ -1,0 +1,7 @@
+#
+# Blast databases
+# See: http://selab.janelia.org/people/farrarm/blastdbfmtv4/BlastDbFormatV4.pdf 
+#
+0	belong	0x00000004	Blast Database Index File v4.0
+>4	belong	0x00000000	DNA
+>4	belong	0x00000001	Protein
