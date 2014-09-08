@@ -8,7 +8,7 @@ Motivation: https://www.biostars.org/p/111642 "Tool that detects data types"
 ## Compiling the magic file 'bioinfo.mgc'
 
 ```bash
-$ file -C -m bioinfo
+$ make
 ```
 
 ## Tested with **`file`**:
@@ -38,6 +38,7 @@ file.gz.tbi: Tabix index file v1.0 (data)
 
 * **magic** - file command's magic pattern file  http://linux.die.net/man/5/magic
 * **file** - determine file type http://linux.die.net/man/1/file 
+* github repo for **file** : https://github.com/file/file
 
 ## Author
 

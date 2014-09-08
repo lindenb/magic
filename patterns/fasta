@@ -1,0 +1,1 @@
+0	regex	[\r\n]*>.*[\n\r][A-Za-z]*\n	Fasta sequence

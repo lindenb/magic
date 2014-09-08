@@ -1,0 +1,7 @@
+#
+# Fastq  : http://en.wikipedia.org/wiki/FASTQ_format
+#
+0	regex	@.*\n[ATGCNatgcn]*\n+.*\n[!-I]*\n	Fastq (Sanger)
+0	regex	@.*\n[ATGCNatgcn]*\n+.*\n[;-i]*\n	Fastq (Solexa)
+0	regex	@.*\n[ATGCNatgcn]*\n+.*\n[!-J]*\n	Fastq (Illumina 1.8)
+0	regex	@.*\n[ATGCNatgcn]*\n+.*\n[@-i]*\n	Fastq (Illumina 1.3)

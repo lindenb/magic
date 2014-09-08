@@ -1,5 +1,5 @@
 .PHONY:all compile tests
-
+PATTERNS=$(addprefix patterns/,bam  bed  fastq fasta  tabix  vcf bigwig bigbed)
 all: tests
 
 tests: bioinfo.mgc
@@ -7,6 +7,7 @@ tests: bioinfo.mgc
 
 compile: bioinfo.mgc
 
-bioinfo.mgc :bioinfo
-	file -C -m $<
-
+bioinfo.mgc : ${PATTERNS}
+	cat $^ > $(basename $@)
+	file -C -m $(basename $@)
+	rm -f $(basename $@)
