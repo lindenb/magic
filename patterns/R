@@ -1,0 +1,11 @@
+#
+# http://cran.r-project.org/doc/manuals/r-release/R-ints.html
+#
+# See 'static void R_WriteMagic(FILE *fp, int number)' in src/main/saveload.c
+#
+0	string RDA1\n	R Version 1 - R Data, ASCII Format 
+0	string RDA2\n	R Version >=2 - R Data, ASCII Format 
+0	string RDB1\n	R Version 1 - R Data, Binary Format 
+0	string RDB2\n	R Version >=2 - R Data, Binary Format
+0	string RDX1\n	R Version 1 - R Data, XDR Format 
+0	string RDX2\n	R Version >=2 - R Data, XDR Format

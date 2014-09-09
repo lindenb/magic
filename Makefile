@@ -1,5 +1,5 @@
 .PHONY:all compile tests
-FORMATS=bam  bed  fastq fasta  tabix  vcf bigwig bigbed blast
+FORMATS=bam  bed  fastq fasta  tabix  vcf bigwig bigbed blast R
 PATTERNS=$(addprefix patterns/,${FORMATS})
 all: tests
 
