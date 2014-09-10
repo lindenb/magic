@@ -1,0 +1,9 @@
+#
+# Hapmap 
+# ftp://ftp.ncbi.nlm.nih.gov/hapmap/genotypes/2009-01_phaseIII/00README.txt
+#
+0	string	rs#\ alleles\ chrom\ pos\ strand\ assembly
+>&0	string	#\ center\ protLSID\ assayLSID\ panelLSID\ QCcode HapMap Genotypes
+0	string	rs#\ chrom\ pos\ strand\ build\ center\ protLSID
+>&0	string	\ assayLSID\ panelLSID\ QC_code\ refallele\ refallele_freq	HapMap Frequencies
+

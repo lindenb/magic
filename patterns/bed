@@ -1,1 +1,17 @@
-0	regex	[^t]+\t[0-9]+\t[0-9]+\n	BED Format 3 columns
+#
+# UCSC BED: http://genome.ucsc.edu/FAQ/FAQformat.html#format1
+#
+0	regex	[^\t]+\t[0-9]+\t[0-9]+\n	BED Format : 3 columns
+0	regex	[^\t]+\t[0-9]+\t[0-9]+\t[^\t]*\n	BED Format : 4 columns
+0	regex	[^\t]+\t[0-9]+\t[0-9]+\t[^\t]*\t[0-9]+\n	BED Format : 5 columns
+0	regex	[^\t]+\t[0-9]+\t[0-9]+\t[^\t]*\t[0-9]+\t[+-]\n	BED Format : 6 columns
+0	regex	[^\t]+\t[0-9]+\t[0-9]+\t[^\t]*\t[0-9]+\t[+-]\t[0-9]+\n	BED Format : 7 columns
+0	regex	[^\t]+\t[0-9]+\t[0-9]+\t[^\t]*\t[0-9]+\t[+-]\t[0-9]+\t[0-9]+\n	BED Format : 8 columns
+0	regex	[^\t]+\t[0-9]+\t[0-9]+\t[^\t]*\t[0-9]+\t[+-]\t[0-9]+\t[0-9]+	BED Format
+>&0	regex	\t[0-9,]+\n	: 9 columns
+0	regex	[^\t]+\t[0-9]+\t[0-9]+\t[^\t]*\t[0-9]+\t[+-]\t[0-9]+\t[0-9]+	BED Format
+>&0	regex	\t[0-9,]+\t[0-9]+\n	: 10 columns
+0	regex	[^\t]+\t[0-9]+\t[0-9]+\t[^\t]*\t[0-9]+\t[+-]\t[0-9]+\t[0-9]+	BED Format
+>&0	regex	\t[0-9,]+\t[0-9]+\t[0-9,]+\n	: 11 columns
+0	regex	[^\t]+\t[0-9]+\t[0-9]+\t[^\t]*\t[0-9]+\t[+-]\t[0-9]+\t[0-9]+	BED Format
+>&0	regex	\t[0-9,]+\t[0-9]+\t[0-9,]+\t[0-9,]+\n	: 12 columns

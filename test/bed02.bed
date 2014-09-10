@@ -1,0 +1,4 @@
+browser position chr22:20100000-20140000
+track name=spacer description="Blue ticks every 10000 bases" color=0,0,255,
+chr22	20100000	20100001
+chr22	20110000	20110001

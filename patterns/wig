@@ -1,0 +1,5 @@
+#
+# Wiggle https://genome.ucsc.edu/goldenPath/help/wiggle.html
+#
+0	regex fixedStep.*\n[0-9\.eE+-]+\n	UCSC Wig File. Fixed Step
+0	regex variableStep.*\n[0-9]+\t[0-9\.eE+-]+\n	UCSC Wig File. Variable Step

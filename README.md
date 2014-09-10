@@ -38,7 +38,7 @@ file.gz.tbi: Tabix index file v1.0 (data)
 
 * **magic** - file command's magic pattern file  http://linux.die.net/man/5/magic
 * **file** - determine file type http://linux.die.net/man/1/file 
-* github repo for **file** : https://github.com/file/file
+* github repo for **file** : https://github.com/file/file and https://github.com/file/file/tree/master/magic/Magdir
 
 ## Author
 

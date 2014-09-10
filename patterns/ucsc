@@ -1,0 +1,6 @@
+#
+# UCSC annotation header
+# http://genome.ucsc.edu/goldenPath/help/customTrack.html
+#
+0	regex	browser.*\n\(track.*\n\)*	UCSC annotation header
+#>&0	indirect	x	\b, contains

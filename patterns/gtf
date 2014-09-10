@@ -1,4 +1,4 @@
 #
 # http://www.ensembl.org/info/website/upload/gff.html
 #
-0	regex	(#.*\n)*[^t]+\t*[^t]+\t[0-9]+\t[0-9]+\t[0-9eE\.]+\t[+\-]\t[012\.]\t.*\n	GTF (General Feature Format)
+0	regex	(#.*\n)*[^t]+\t*[^t]+\t[0-9]+\t[0-9]+\t[0-9eE\.]+\t[+-]\t[012\.]\t.*\n	GTF (General Feature Format)

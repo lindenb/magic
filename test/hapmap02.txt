@@ -1,0 +1,2 @@
+rs# chrom pos strand build center protLSID assayLSID panelLSID QC_code refallele refallele_freq refallele_count otherallele otherallele_freq otherallele_count totalcount
+rs6423165 chrY 109805 - ncbi_B36 affymetrix urn:LSID:affymetrix.hapmap.org:Protocol:GenomeWideSNP_6.0:2 urn:LSID:affymetrix.hapmap.org:Assay:SNP_A-8572888:2 urn:lsid:dcc.hapmap.org:Panel:Han_Chinese:2 QC+ T 0.159 7 C 0.841 37 44
