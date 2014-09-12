@@ -1,5 +1,5 @@
 .PHONY:all compile tests
-FORMATS=abi bam bed fastq fasta tabix vcf bigwig bigbed blast R gtf wig ucsc hapmap
+FORMATS=abi bam liftOver bed fastq fasta tabix vcf bigwig bigbed blast R gtf wig ucsc hapmap 
 PATTERNS=$(addprefix patterns/,${FORMATS})
 all: tests
 

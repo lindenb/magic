@@ -1,0 +1,5 @@
+#
+# LiftOver chain https://genome.ucsc.edu/goldenPath/help/chain.html
+#
+0	regex	chain\ [0-9]+\ [^\t]+.*\n	UCSC chain file
+!:strength + 20
