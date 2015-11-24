@@ -1,0 +1,6 @@
+#
+# twobit uses 2 magic's:
+#https://github.com/curoverse/get-evidence/blob/master/server/utils/twobit.py
+
+0	belong	0x1A412743	TwoBit Compressed Sequence, ASCII text
+0	belong	0x4327411A	TwoBit Compressed Sequence (rev. byte order), ASCII text
