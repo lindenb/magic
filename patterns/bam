@@ -1,8 +1,7 @@
 #
-#
 # CSI spec : http://samtools.github.io/hts-specs/CSIv1.pdf
 #
 0	string	@HD\tVN:1.0\ SO:coordinate	SAM file v1.0 sorted on coordinates
-0	string	BAM\1	BAM file v1.0
-0	string	BAI\1	BAM .bai index file v1.0
-0	string	CSI\1	BAM .csi index file v1.0
+0	string	BAM\1	BAM Sequence alignment file v1.0
+0	string	BAI\1	BAM Sequence alignment .bai index file v1.0
+0	string	CSI\1	BAM Sequence alignment .csi index file v1.0
