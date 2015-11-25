@@ -1,4 +1,6 @@
 #https://samtools.github.io/hts-specs/CRAMv2.1.pdf
-#http://samtools.github.io/hts-specs/CRAMv3.pdf
-0	string	CRAM\2\1	CRAM 2.1 file
-0	string	CRAM\3\0	CRAM 3.0 file
+#https://samtools.github.io/hts-specs/CRAMv3.pdf
+
+0	string	CRAM	CRAM Sequence alignment file
+>&0	string	\2\1	v2.1
+>&0	string	\3\0	v3.0
